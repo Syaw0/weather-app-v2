@@ -25,7 +25,7 @@
     "eject": "react-scripts eject",
     "cypress:open":"npx cypress open" ,
     "cypress:run":"npx cypress run" ,
-    "cypress:component":"npx cypress run --component" ,
+    "cypress:component":"npx cypress run --component" 
   },
   "eslintConfig": {
     "extends": [

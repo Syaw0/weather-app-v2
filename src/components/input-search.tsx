@@ -52,7 +52,7 @@ const InputSearch = () =>{
                 boxShadow:"$1dp",
                 position:"relative",
                 zIndex:"2",
-
+                backdropFilter:"blur(3px)",
                 "& svg":{
                     stroke:"rgba(255,255,255,0.5)",
                     cursor:"pointer",
@@ -68,7 +68,7 @@ const InputSearch = () =>{
                     color:"rgba(255,255,255,0.7)",
                     headline5:"600",
                     letterSpacing:"1px",
-                    backdropFilter:"blur(5px)",
+
                     "@bp4":{
                         headline6:"600",
                     },
@@ -78,7 +78,7 @@ const InputSearch = () =>{
                     "&::placeholder":{
                         headline5:"400",
                         opacity:'1',
-                        color:"rgba(255,255,255,0.5)"
+                        color:"rgba(255,255,255,0.7)"
                     }
                 }
                 

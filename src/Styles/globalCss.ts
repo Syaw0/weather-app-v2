@@ -37,11 +37,11 @@ const globalStyle = globalCss({
         backgroundColor:"black",
         minHeight:"100vh",
         position:"relative",
-        backgroundImage:"url('https://user-images.githubusercontent.com/78824988/182130876-282737f7-0112-4a91-8d35-73925d4f61a1.jpg')",
         backgroundClip:"content-box",
         backgroundOrigin:"content-box",
         backgroundPosition:"center",
         backgroundSize:"cover",
+        overflow:"hidden"
 
     },
     ".box": { perspective: "120px" },
