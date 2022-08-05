@@ -1,4 +1,5 @@
 import React from "react";
+import { fadeIn } from "../Styles/keyframes";
 import Flex from "../Styles/styledComponent/Flex";
 import Text from "../Styles/styledComponent/Text";
 import MainSectionBottom from "./mainSectionBottom";
@@ -9,6 +10,7 @@ const MainSection = () => {
     <Flex
       data-testid="main"
       data-test="main"
+      id='main'
       dir={"column"}
       justify='center'
       align='center'
@@ -20,6 +22,7 @@ const MainSection = () => {
         backdropFilter:"blur(3px)",
         boxShadow:" 0 4px 30px rgba(0, 0, 0, 0.1)",
         borderRadius:'16px',
+        animation:`${fadeIn} 1s both ease`,
         "&>div": {
           height:"100%",
         },

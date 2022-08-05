@@ -5,7 +5,6 @@ import { dynamicBg } from "./dynamicBg"
 let n = 1
 export const startChangingBg = () =>{
 setInterval(()=>{
-    console.log("rendering")
     animated()
     
 
@@ -17,7 +16,6 @@ const animated = () =>{
     let bg1:any =  document.getElementById("bg-1")
     let bg2:any = document.getElementById("bg-2")   
     if(bg1.attributes['role'].value === "active"){
-        console.log("bg1 active")
         bg2.style.opacity = "1"
         bg2.style.animation = `${scaleUp} 4s ease`
         bg1.style.opacity = '0'
@@ -32,7 +30,6 @@ const animated = () =>{
         },4000)
         
     }else{
-        console.log("bg2 active")
         bg2.setAttribute('role' , 'deActive')
         bg1.setAttribute('role' , 'active')
         bg2.style.animation = `${scaleDown} 4s ease`

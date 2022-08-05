@@ -44,7 +44,7 @@ const globalStyle = globalCss({
         overflow:"hidden"
 
     },
-    ".box": { perspective: "120px" },
+    ".box": { perspective: "120px"  },
   ".plane": {
     width: "2em",
     height: "2em",

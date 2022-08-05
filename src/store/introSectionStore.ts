@@ -1,4 +1,6 @@
 import {StateCreator} from "zustand"
+import { fadeIn } from "../Styles/keyframes"
+import { fadeOutInput } from "../utils/animations"
 
 
 interface IntroSTORE {
@@ -9,7 +11,13 @@ interface IntroSTORE {
 const introSectionStore :StateCreator<IntroSTORE>  = (set) =>({
     status:"searching" ,
     setStatus(status:string) {
-        set(state=>{return{...state , status:status}})        
+
+        if(status === "pending"){
+            fadeOutInput()
+        }
+        setTimeout(()=>{
+            set(state=>{return{...state , status:status}})        
+        },1000)
     },
 })
 

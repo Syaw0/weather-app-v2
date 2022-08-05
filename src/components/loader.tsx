@@ -3,7 +3,7 @@ import React from "react";
 const Loader = () => {
 
     return(
-        <div data-test='intro-loader' className="box">
+        <div id='intro-loader' data-test='intro-loader' className="box">
             <div className="plane"></div>
         </div>
 

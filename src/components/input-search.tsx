@@ -1,6 +1,7 @@
 import React, {useState } from "react";
 import Ico_search from "../asesst/Ico_search";
 import mainStore from "../store/mainStore";
+import { fadeIn } from "../Styles/keyframes";
 import Flex from "../Styles/styledComponent/Flex";
 import Text from "../Styles/styledComponent/Text";
 
@@ -43,7 +44,7 @@ const InputSearch = () =>{
 
     return(
         <>
-            <Flex justify={'between'} css={{
+            <Flex id='intro-input-holder' justify={'between'} css={{
                 width:"fit-content",
                 backgroundColor:"rgba(255,255,255,0.1)",
                 padding:"12px 24px 12px 32px ",
@@ -53,6 +54,7 @@ const InputSearch = () =>{
                 position:"relative",
                 zIndex:"2",
                 backdropFilter:"blur(3px)",
+                animation:`${fadeIn} 1s both ease`,
                 "& svg":{
                     stroke:"rgba(255,255,255,0.5)",
                     cursor:"pointer",

@@ -39,4 +39,28 @@ const scaleDown = keyframes({
 })
 
 
-export {flip ,fadeToDown  , scaleUp  ,scaleDown}
+const fadeOut = keyframes({
+    "0%":{
+        transform:"scale(1)",
+        opacity:"1"
+    },
+    "100%":{
+        transform:"scale(0.9)",
+        opacity:"0"
+    }
+})
+
+
+const fadeIn = keyframes({
+    "0%":{
+        transform:"scale(0.9)",
+        opacity:"0"
+    },
+    "100%":{
+        transform:"scale(1)",
+        opacity:"1"
+    }
+})
+
+
+export {flip ,fadeToDown  , scaleUp  ,scaleDown , fadeOut , fadeIn}
