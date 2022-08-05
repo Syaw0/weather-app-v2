@@ -1,10 +1,10 @@
-import Ico_airQuality from "../asesst/Ico_air_quality"
-import Ico_humidity from "../asesst/Ico_humidity"
-import Ico_pressure from "../asesst/Ico_pressure"
-import Ico_rain from "../asesst/Ico_rain"
-import Ico_sunrise from "../asesst/Ico_sunrise"
-import Ico_sunset from "../asesst/Ico_sunset"
-import Ico_wind from "../asesst/Ico_wind"
+import Ico_airQuality from "../../asesst/Ico_air_quality"
+import Ico_humidity from "../../asesst/Ico_humidity"
+import Ico_pressure from "../../asesst/Ico_pressure"
+import Ico_rain from "../../asesst/Ico_rain"
+import Ico_sunrise from "../../asesst/Ico_sunrise"
+import Ico_sunset from "../../asesst/Ico_sunset"
+import Ico_wind from "../../asesst/Ico_wind"
 
 let iconW = {width:'45px', heigth:"45px"}
 

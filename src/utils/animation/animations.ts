@@ -1,4 +1,4 @@
-import { fadeOut } from "../Styles/keyframes"
+import { fadeOut } from "../../Styles/keyframes"
 
 const fadeOutInput = () =>{
     let input:any = document.getElementById("intro-input-holder")

@@ -1,5 +1,5 @@
 import { StateCreator } from "zustand";
-import getCityData from "../utils/getCityData"
+import getCityData from "../utils/fetching/getCityData"
 
 
 interface WeatherSTORE{

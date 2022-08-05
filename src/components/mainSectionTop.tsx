@@ -4,7 +4,7 @@ import Text from "../Styles/styledComponent/Text";
 import mainStore from "../store/mainStore";
 import Ico_minTemp from "../asesst/Ico_minTemp";
 import Ico_maxTemp from "../asesst/Ico_maxTemp";
-import { weatherIcons } from "../utils/weatherIcons";
+import { weatherIcons } from "../utils/global/weatherIcons";
 
 const MainSectionTop = () =>{
 

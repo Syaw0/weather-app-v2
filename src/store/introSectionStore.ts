@@ -1,6 +1,6 @@
 import {StateCreator} from "zustand"
 import { fadeIn } from "../Styles/keyframes"
-import { fadeOutInput } from "../utils/animations"
+import { fadeOutInput } from "../utils/animation/animations"
 
 
 interface IntroSTORE {

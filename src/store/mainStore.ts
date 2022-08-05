@@ -3,7 +3,7 @@ import create from "zustand"
 import {introSectionStore , IntroSTORE }from "./introSectionStore"
 import { WeatherSTORE , weatherStore } from "./weatherDataStorage"
 import {MainSectionSTORE , mainSectionStore} from "./mainSection"
-import { fadeOutMain } from "../utils/animations"
+import { fadeOutMain } from "../utils/animation/animations"
 interface MainStore{
     currentComponent : string
     setCurrentComponent : (component:string)=>void

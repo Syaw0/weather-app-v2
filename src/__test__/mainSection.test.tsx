@@ -1,12 +1,12 @@
 import React from "react";
-import { render , screen , fireEvent , waitFor , cleanup, getByText} from "@testing-library/react";
+import { render , screen , fireEvent , waitFor , cleanup} from "@testing-library/react";
 import "@testing-library/jest-dom"
 import App from "../App";
-import getCityData from "../utils/getCityData"
+import getCityData from "../utils/fetching/getCityData"
 import mainStore from "../store/mainStore"
-import {fakeData} from "../utils/fakeData"
+import {fakeData} from "../utils/global/fakeData"
 
-jest.mock("../utils/getCityData.ts")
+jest.mock("../utils/fetching/getCityData.ts")
 const mocked:any = jest.mocked(getCityData , true)
 const initialStore = mainStore.getState()
 
@@ -31,10 +31,11 @@ describe('mainSection',()=> {
     });
 
 
-    it('when click on the search again , search input render again', () => {
+    it('when click on the search again , search input render again', async() => {
         render(<App/>)
-        fireEvent.click(screen.getByTestId("main-section-top-button"))
-        expect(screen.getByTestId('intro-search-input')).toBeInTheDocument()
+        fireEvent.click(screen.getByTestId("main-section-top-button")) 
+        waitFor(()=>expect(screen.getByTestId('intro-search-input')).toBeInTheDocument())
+        
     });
 
 

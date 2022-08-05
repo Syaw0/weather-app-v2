@@ -3,9 +3,9 @@ import Flex from "../Styles/styledComponent/Flex";
 import Text from "../Styles/styledComponent/Text";
 import MainSectionBottomItems from "./mainSectionBottomItems";
 import mainStore from "../store/mainStore";
-import { weatherDetail } from "../utils/weatherDetail";
-import { airQuality } from "../utils/airQuality";
-import { weatherIcons } from "../utils/weatherIcons";
+import { weatherDetail } from "../utils/global/weatherDetail";
+import { airQuality } from "../utils/global/airQuality";
+import { weatherIcons } from "../utils/global/weatherIcons";
 
 
 const MainSectionBottom = () =>{

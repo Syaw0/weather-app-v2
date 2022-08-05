@@ -4,7 +4,7 @@ import globalStyle from './Styles/globalCss';
 import IntroSection from './components/introSection';
 import MainSection from './components/mainSection';
 import mainStore from './store/mainStore';
-import { setWidth } from './utils/setWindowWidth';
+import { setWidth } from './utils/global/setWindowWidth';
 import {startChangingBg} from "./utils/motion/changeBg"
 import { dynamicBg } from './utils/motion/dynamicBg';
 

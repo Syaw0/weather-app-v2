@@ -1,18 +1,18 @@
-import Ico_clear from "../asesst/Ico_clear";
-import Ico_cloud from "../asesst/Ico_cloud";
-import Ico_hail from "../asesst/ico_hail";
-import Ico_heavyRain from "../asesst/Ico_heavyRain";
-import Ico_heavySnow from "../asesst/Ico_heavySnow";
-import Ico_heavyThunder from "../asesst/Ico_heavyThunder";
-import Ico_lightRainDay from "../asesst/Ico_lightRain_day";
-import Ico_lightRain_night from "../asesst/Ico_lightRain_night";
-import Ico_lightSnowDay from "../asesst/Ico_lightSnow_day";
-import Ico_lightSnow_night from "../asesst/Ico_lightSnow_night";
-import Ico_lowCloud_day from "../asesst/Ico_lowCloud_day";
-import Ico_lowCloud_night from "../asesst/Ico_lowCloud_night";
-import Ico_lwoThunder_day from "../asesst/Ico_lowThunder_day";
-import Ico_lwoThunder_night from "../asesst/Ico_lowThunder_night";
-import Ico_sunny from "../asesst/Ico_sunny";
+import Ico_clear from "../../asesst/Ico_clear";
+import Ico_cloud from "../../asesst/Ico_cloud";
+import Ico_hail from "../../asesst/ico_hail";
+import Ico_heavyRain from "../../asesst/Ico_heavyRain";
+import Ico_heavySnow from "../../asesst/Ico_heavySnow";
+import Ico_heavyThunder from "../../asesst/Ico_heavyThunder";
+import Ico_lightRainDay from "../../asesst/Ico_lightRain_day";
+import Ico_lightRain_night from "../../asesst/Ico_lightRain_night";
+import Ico_lightSnowDay from "../../asesst/Ico_lightSnow_day";
+import Ico_lightSnow_night from "../../asesst/Ico_lightSnow_night";
+import Ico_lowCloud_day from "../../asesst/Ico_lowCloud_day";
+import Ico_lowCloud_night from "../../asesst/Ico_lowCloud_night";
+import Ico_lwoThunder_day from "../../asesst/Ico_lowThunder_day";
+import Ico_lwoThunder_night from "../../asesst/Ico_lowThunder_night";
+import Ico_sunny from "../../asesst/Ico_sunny";
 
 export const weatherIcons:{[index:string]:any} = {
 

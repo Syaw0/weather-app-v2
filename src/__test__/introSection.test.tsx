@@ -2,11 +2,11 @@ import React from "react";
 import { render , screen , fireEvent , waitFor , cleanup} from "@testing-library/react";
 import "@testing-library/jest-dom"
 import App from "../App";
-import getCityData from "../utils/getCityData"
+import getCityData from "../utils/fetching/getCityData"
 import mainStore from "../store/mainStore"
-import { fakeData } from "../utils/fakeData";
+import { fakeData } from "../utils/global/fakeData";
 
-jest.mock("../utils/getCityData.ts")
+jest.mock("../utils/fetching/getCityData.ts")
 const mocked:any = jest.mocked(getCityData , true)
 const initialStore = mainStore.getState()
 
